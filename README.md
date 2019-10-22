@@ -13,7 +13,9 @@ Code Source files
 UML Activity Diagram
 UML Sequence Diagram
 Code PDF
-Readme.txt
+Readme.pdf
+Outpul file for PC version from MCU console
+Output file for KL25Z from MCU terminal
 
 Assignment Description: There are several key elements to creation and demonstration of this utility,
 			including: a suite of memory tests, a pattern generator, a logger, an LED control, 
@@ -50,6 +52,9 @@ Program Execution:
 5. Log messages are printed on MCUxpresso terminnal for FB_RUN verion via UART.
 6. Log messages are printed on MCUxpresso console for PC_RUN verion.
 7. LED indications are run in KL25Z freedom board.  
+Blue LED- when the program is runnimg normally
+Red LED- When an error is encountered, Red LED blinks and code continues to run
+Green LED-Green LED turns on after sccessful completion of code.
 
 
 Difficulties faced:
