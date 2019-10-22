@@ -9,13 +9,14 @@ References: Insights were taken from the link mentioned below to write the code 
 https://www.guru99.com/c-dynamic-memory-allocation.html
 
 Repo Content: 
-Code Source files 
+Code Source files main, LED_Blinking, Delay_Function, Logger,Memory_Functions
 UML Activity Diagram
 UML Sequence Diagram
 Code PDF
 Readme.pdf
 Outpul file for PC version from MCU console
 Output file for KL25Z from MCU terminal
+Partially implemented uC unit testing folder 
 
 Assignment Description: There are several key elements to creation and demonstration of this utility,
 			including: a suite of memory tests, a pattern generator, a logger, an LED control, 
