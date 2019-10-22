@@ -1,0 +1,9 @@
+Memory_Functions.c:48:11:allocate_words	8	static
+Memory_Functions.c:60:6:free_words	16	static
+Memory_Functions.c:72:12:get_address	24	static
+Memory_Functions.c:91:6:write_pattern	32	static
+Memory_Functions.c:109:10:display_memory	16	static
+Memory_Functions.c:122:6:Write_Value_To_Memory	40	static
+Memory_Functions.c:150:6:invert_block	32	static
+Memory_Functions.c:183:6:ReInvert_block	32	static
+Memory_Functions.c:220:12:verify_pattern	32	static
