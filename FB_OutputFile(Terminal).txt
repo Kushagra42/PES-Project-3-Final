@@ -1,0 +1,299 @@
+     
+LOG_STRING:
+ENTER THE OFFSET VALUE
+LOG_DATA:1ffff1e4
+LOG_STRING:
+ENTER THE SEED VALUE:
+LOG_STRING:rand max is
+LOG_DATA:7f
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_DATA:b
+LOG_DATA:20
+LOG_DATA:59
+LOG_DATA:6
+LOG_DATA:37
+LOG_DATA:3c
+LOG_DATA:25
+LOG_DATA:42
+LOG_DATA:23
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+
+pattern after writing the value
+LOG_STRING:
+           Pattern after modifying the value at the given location is
+                                                                     :ffee
+
+LOG_DATA:b
+LOG_DATA:20
+LOG_DATA:59
+LOG_DATA:6
+LOG_DATA:ffee
+LOG_DATA:3c
+LOG_DATA:25
+LOG_DATA:42
+LOG_DATA:23
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+ error generated at address
+LOG_DATA:1ffff1f0
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+
+pattern generated with the same seed value
+LOG_STRING:rand max is
+LOG_DATA:7f
+LOG_DATA:b
+LOG_DATA:20
+LOG_DATA:59
+LOG_DATA:6
+LOG_DATA:37
+LOG_DATA:3c
+LOG_DATA:25
+LOG_DATA:42
+LOG_DATA:23
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+ allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+
+ENTER THE OFFSET VALUE FOR INVERTING BYTES FUNCTION:
+LOG_STRING:
+
+           inverted bytes are:
+LOG_DATA:f4
+LOG_DATA:df
+LOG_DATA:a6
+LOG_DATA:f9
+LOG_DATA:37
+LOG_DATA:3c
+LOG_DATA:25
+LOG_DATA:42
+LOG_DATA:23
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+           error generated at address
+LOG_DATA:1ffff1e0
+LOG_STRING:
+           error generated at address
+LOG_DATA:1ffff1e4
+LOG_STRING:
+           error generated at address
+LOG_DATA:1ffff1e8
+LOG_STRING:
+           error generated at address
+LOG_DATA:1ffff1ec
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+ allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+
+pattern after re-inverting the blocks
+LOG_DATA:b
+LOG_DATA:20
+LOG_DATA:59
+LOG_DATA:6
+LOG_DATA:37
+LOG_DATA:3c
+LOG_DATA:25
+LOG_DATA:42
+LOG_DATA:23
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+LOG_DATA:18
+LOG_DATA:31
+LOG_DATA:3e
+LOG_DATA:4f
+LOG_DATA:34
+LOG_DATA:7d
+LOG_DATA:7a
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:
+           allocated memories are equal
+LOG_STRING:

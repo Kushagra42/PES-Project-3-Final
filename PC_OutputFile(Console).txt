@@ -1,0 +1,559 @@
+
+
+BLUE_LED_ON
+
+ENTER THE OFFSET VALUE4
+
+
+
+ physical address is:1ffff1dc
+
+ENTER THE SEED VALUE:10
+
+
+ rand max is 127
+
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+ pattern_generated is:b
+
+
+ pattern_generated is:20
+
+
+ pattern_generated is:59
+
+
+ pattern_generated is:6
+
+
+ pattern_generated is:37
+
+
+ pattern_generated is:3c
+
+
+ pattern_generated is:25
+
+
+ pattern_generated is:42
+
+
+ pattern_generated is:23
+
+
+ pattern_generated is:18
+
+
+ pattern_generated is:31
+
+
+ pattern_generated is:3e
+
+
+ pattern_generated is:4f
+
+
+ pattern_generated is:34
+
+
+ pattern_generated is:7d
+
+
+ pattern_generated is:7a
+
+
+
+pattern after writing the value
+
+ Pattern after modifying the value at the given location is
+
+:ffee
+
+
+b
+
+20
+
+59
+
+6
+
+ffee
+
+3c
+
+25
+
+42
+
+23
+
+18
+
+31
+
+3e
+
+4f
+
+34
+
+7d
+
+7a
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+RED_LED_ON
+
+error generated at address:1ffff1e8
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+
+pattern generated with the same seed value
+
+ rand max is 127
+
+
+ pattern_generated is:b
+
+
+ pattern_generated is:20
+
+
+ pattern_generated is:59
+
+
+ pattern_generated is:6
+
+
+ pattern_generated is:37
+
+
+ pattern_generated is:3c
+
+
+ pattern_generated is:25
+
+
+ pattern_generated is:42
+
+
+ pattern_generated is:23
+
+
+ pattern_generated is:18
+
+
+ pattern_generated is:31
+
+
+ pattern_generated is:3e
+
+
+ pattern_generated is:4f
+
+
+ pattern_generated is:34
+
+
+ pattern_generated is:7d
+
+
+ pattern_generated is:7a
+
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+
+ENTER THE OFFSET VALUE FOR INVERTING BYTES FUNCTION:4
+
+
+
+inverted bytes are:
+
+f4
+
+df
+
+a6
+
+f9
+
+37
+
+3c
+
+25
+
+42
+
+23
+
+18
+
+31
+
+3e
+
+4f
+
+34
+
+7d
+
+7a
+
+RED_LED_ON
+
+error generated at address:1ffff1d8
+
+RED_LED_ON
+
+error generated at address:1ffff1dc
+
+RED_LED_ON
+
+error generated at address:1ffff1e0
+
+RED_LED_ON
+
+error generated at address:1ffff1e4
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+
+pattern after re-inverting the blocks
+
+
+inverted bytes are:
+
+b
+
+20
+
+59
+
+6
+
+37
+
+3c
+
+25
+
+42
+
+23
+
+18
+
+31
+
+3e
+
+4f
+
+34
+
+7d
+
+7a
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+BLUE_LED_ON
+
+allocated memories are equal
+
+
+allocated memory FREE
+
+GREEN_LED_ON
