@@ -37,11 +37,13 @@ Program Files Description: The program contains multiple files as mentioned belo
 
 Program execution instruction:
 
-1. Choose between PC_RUN version and FB_RUN version by uncommenting #define PC_RUN and Commenting #define FB_RUN and vice-verca in main.h
-2. Select UART from Quick setting menu to run the FB_RUN version of the code
-3. Select Semihost from Quick setting menu to run PC_RUN version of the code
-4. Enable logging and disable logging by un-commenting #define Logging_init and commenting Logging_notinit and vice-verca in Logger.h
-5. While running the program on development envirnoment or KL25Z, input  the requirements as asked in console/terminal by clicking in front of it.
+1. Choose between PC_RUN version and FB_RUN version by uncommenting #define PC_RUN and Commenting #define FB_RUN and vice-verca in 	main.h
+2. For running on linux use the makefile, Un-comment #define PC_RUN in main.h
+3. Select UART from Quick setting menu to run the FB_RUN version of the code
+4. Select Semihost from Quick setting menu to run PC_RUN version of the code
+5. Enable logging and disable logging by un-commenting #define Logging_init and commenting Logging_notinit and vice-verca in Logger.h
+6. While running the program on development envirnoment or KL25Z, input  the requirements as asked in console/terminal by clicking in front of it.
+7. FB_RUN uses auto generated make file
 
 
 Program Execution:
