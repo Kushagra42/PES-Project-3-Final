@@ -31,10 +31,10 @@
 #include "LED_Blink.h"
 #include "Delay_Function.h"
 
-extern const int NUMB_OF_INVERTING_BYTES;//Number of Bytes to be Inverted
+extern int NUMB_OF_INVERTING_BYTES;//Number of Bytes to be Inverted
 extern size_t Inverting_length;//length for which we invert the bytes
 
-extern const int NUMB_OF_BYTES;
+extern int NUMB_OF_BYTES;
 extern size_t length;//size of the memory in bytes.
 
 //#define NULL ((void*)0)
@@ -159,12 +159,12 @@ uint32_t milli_sec_val=0;
 int main(void)
 {
 
-BOARD_InitBootPins();
-BOARD_InitBootClocks();
-BOARD_InitBootPeripherals();
-BOARD_InitDebugConsole();
-BOARD_InitPins();
-BOARD_BootClockRUN();
+//BOARD_InitBootPins();
+//BOARD_InitBootClocks();
+//BOARD_InitBootPeripherals();
+//BOARD_InitDebugConsole();
+//BOARD_InitPins();
+//BOARD_BootClockRUN();
 
 
 BLUE_LED_ON();

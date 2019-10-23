@@ -12,10 +12,9 @@
  *
  */
 
-
 #include "Logger.h"
 
-
+#ifdef FB_RUN
 uint8_t log_status;
 
 // Function log enable, when called in main returns log_status 1
@@ -104,3 +103,4 @@ void Log_Integer(int integer_value)
 			}
 
 	}
+#endif

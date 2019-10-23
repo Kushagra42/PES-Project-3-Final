@@ -12,9 +12,9 @@
  *
  *Defining the funcyions used in Logger.c file
  */
-
-
 #include "main.h"
+#ifdef FB_RUN
+
 #include "string.h"
 
 // Un-comment logging_init and comment logging_notinit to enable logging
@@ -29,4 +29,4 @@ uint8_t Status();
 void Log_Data(uint32_t data);
 void Log_String(char *statement);
 void Log_Integer(int integer_value);
-
+#endif

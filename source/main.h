@@ -15,6 +15,11 @@
  */
 
 
+
+//#define PC_RUN
+#define FB_RUN
+
+#ifdef FB_RUN
 #include <stdio.h>
 #include <stdint.h>//for using unit32_t data type.
 #include <stdlib.h>//for using malloc() function.
@@ -30,6 +35,13 @@
 #include "fsl_gpio.h"
 #include "fsl_uart.h"
 #include "time.h"
+#endif
 
-//#define PC_RUN
-#define FB_RUN
+#ifdef PC_RUN
+#include <stdio.h>
+#include <stdint.h>//for using unit32_t data type.
+#include <stdlib.h>//for using malloc() function.
+#include <math.h>
+#include <limits.h>
+#endif
+

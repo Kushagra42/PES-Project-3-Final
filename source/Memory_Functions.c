@@ -17,7 +17,7 @@
 
 
 
-#include "memory_functions.h"
+#include "Memory_Functions.h"
 //This version is for running the code on freedom board
 #ifdef FB_RUN
 
@@ -48,8 +48,9 @@ int i=0;
 uint32_t *allocate_words()
 {
     ptr=(uint32_t*)malloc(length);//dynamic memory allocation using malloc().
-    if(length>SIZE_MAX)//checking for maximum allowed memory.
+    if(NUMB_OF_BYTES>16 && NUMB_OF_BYTES<0)//checking for maximum allowed memory.
       {
+    	LED_RED_ON();
          ptr=0;
       }
 
@@ -275,11 +276,11 @@ uint32_t *ptr=NULL;//pointer for memory allocation function.
 
 
 //size_t MAX=16;//size of the memory in bytes.
-const int NUMB_OF_BYTES=16;
-size_t length=NUMB_OF_BYTES*(sizeof(int));//size of the memory in bytes.
+int NUMB_OF_BYTES=16;
+size_t length=16/*NUMB_OF_BYTES*/*(sizeof(int));//size of the memory in bytes.
 
-const int NUMB_OF_INVERTING_BYTES=4;//Number of Bytes to be Inverted
-size_t Inverting_length=NUMB_OF_INVERTING_BYTES*(sizeof(uint8_t));//length for which we invert the bytes
+int NUMB_OF_INVERTING_BYTES=4;//Number of Bytes to be Inverted
+size_t Inverting_length=16/*NUMB_OF_INVERTING_BYTES*/*(sizeof(uint8_t));//length for which we invert the bytes
 int i=0;
 
 
@@ -288,8 +289,9 @@ int i=0;
 uint32_t *allocate_words()
 {
     ptr=(uint32_t*)malloc(length);//dynamic memory allocation using malloc().
-    if(length>SIZE_MAX)//checking for maximum allowed memory.
+    if(NUMB_OF_BYTES>16 && NUMB_OF_BYTES<0)//checking for maximum allowed memory.
       {
+    	LED_RED_ON();
          ptr=0;
       }
 
@@ -318,7 +320,7 @@ uint32_t * get_address(uint32_t *base_address,int offset)
 	}
 	uint32_t *physical_address=NULL;
 	physical_address=(uint32_t*)(offset_ptr2);
-	printf("\n\n\r physical address is:%x",(unsigned int)physical_address);
+	printf("\n\n\r physical address is:%p",physical_address);
 	return 0;
 }
 
@@ -368,7 +370,7 @@ void Write_Value_To_Memory(uint32_t * base_address,int offset, uint32_t value)
     *physical_address=value;
     printf("\n\r Pattern after modifying the value at the given location is");
 
-    printf("\n\r:%x\n",(unsigned int)(*physical_address));
+    printf("\n\r:%x\n",(*physical_address));
     uint32_t *printer=NULL;
     printer=ptr;
     for(i=0;i<NUMB_OF_BYTES;i++)
@@ -389,9 +391,9 @@ void invert_block(uint32_t * base_address,int offset2, size_t Inverting_length)
    //incrementing it to the offset value required.
   offset_ptr3++;
  }
-    uint32_t *physical_address=NULL;
+    //uint32_t *physical_address=NULL;
     //calculating the physical address with the help of offset pointer value above.
-    physical_address=(uint32_t*)(offset_ptr3);
+    //physical_address=(uint32_t*)(offset_ptr3);
 
     printf("\n\n\rinverted bytes are:");
 
@@ -421,9 +423,9 @@ void ReInvert_block(uint32_t * base_address,int offset2, size_t Inverting_length
 	   //incrementing it to the offset value required.
 		 offset_ptr4++;
 	 }
-	    uint32_t *physical_address=NULL;
+	    //uint32_t *physical_address=NULL;
 	    //calculating the physical address with the help of offset pointer value above.
-	    physical_address=(uint32_t*)(offset_ptr4);
+	    //physical_address=(uint32_t*)(offset_ptr4);
 
 	    printf("\n\n\rinverted bytes are:");
 
@@ -470,7 +472,7 @@ uint32_t * verify_pattern(uint32_t * loc, size_t length, uint32_t seed)
     	{
     		RED_LED_ON();
     		printf("\n\rerror generated at address:");
-    		PRINTF("%x",(unsigned int)&loc[i]);
+    		printf("%p",&loc[i]);
     	}
     }
   return 0;

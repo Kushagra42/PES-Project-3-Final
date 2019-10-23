@@ -108,12 +108,6 @@ void BLUE_LED_OFF()
 #include "Memory_Functions.h"
 
 
-//Configuring Pin direction and initial digital output value
-gpio_pin_config_t LED_config=
-	{
-		kGPIO_DigitalOutput, 1,
-	};
-
 
 //setting ON green led GPIO Pin
 void GREEN_LED_ON()
